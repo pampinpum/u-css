@@ -16,6 +16,7 @@ article {
 
 article p {
 	margin-left: 20px;
+	margin-bottom: 10px;
 }
 
 article img {
@@ -28,19 +29,31 @@ article h2 {
 	margin-left: 20px;
 }
 
+article h2 {
+	padding-top: 20px;
+	font-size: x-large;
+}
+
 footer {
 	border: solid;
 	border-color: #75ac38;
+	float: left;
+	width: 100%;
+	padding-left: 15px;
+	padding-top: 15px;
 }
 
 footer img {
 	float: right;
 	margin: 15px;
+	padding-left: 0px;
+	padding-top: 0px;
 }
 
 nav li {
 	display: inline;
-	margin-right: 5px;
+	margin-left: 25px;
+
 }
 
 nav li a {
@@ -49,25 +62,25 @@ nav li a {
 
 nav ul {
 	background-color: #dcdcdc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
 }
 
 aside {
 	float: left;
 	width: 20%;
-	height: 100%;
+	height: 506px;
 }
 
-aside p, aside label {
-		padding-left:10px; 
-		padding-right: 5px;
-		padding-top: 5px;
+aside p, aside label, aside ul {
+	padding-left:10px; 
+	padding-right: 5px;
+	padding-top: 15px;
 }
 
-footer{
-	float: left;
-	width: 100%;
-	padding-left: 10px;
-	padding-top: 10px;
+aside input{
+	margin-top: 15px;
 }
 
 ul {
@@ -77,6 +90,10 @@ ul {
 span {
     font-size: 400%;
     color: gray;
+}
+
+h1 {
+	font-size: xx-large;
 }
 
 #section1 {
