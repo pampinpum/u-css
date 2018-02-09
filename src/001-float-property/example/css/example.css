@@ -1,0 +1,108 @@
+/*
+ * Practice : Float Property
+ * Version: 1
+ * By: nicolas.lagos
+ */
+
+aside, header, #section2, footer {
+	background-color: #e8e8e8;
+}
+
+article {
+	background-color: #c8c8c8;
+	float: left;
+	width: 80%;
+}
+
+article p {
+	margin-left: 20px;
+}
+
+article img {
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+article h2 {
+	margin-left: 20px;
+}
+
+footer {
+	border: solid;
+	border-color: #75ac38;
+}
+
+footer img {
+	float: right;
+	margin: 15px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 5px;
+}
+
+nav li a {
+	text-decoration: none;
+}
+
+nav ul {
+	background-color: #dcdcdc;
+}
+
+aside {
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+
+aside p, aside label {
+		padding-left:10px; 
+		padding-right: 5px;
+		padding-top: 5px;
+}
+
+footer{
+	float: left;
+	width: 100%;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+span {
+    font-size: 400%;
+    color: gray;
+}
+
+#section1 {
+	background-color: #f5f5f5;
+	width:100%;
+}
+
+#section1 li {
+	float: left;
+	margin: 7px;
+}
+
+#section2 {
+	float: left;
+	width: 100%;
+	padding: 20px;
+}
+
+#section2 p {
+	float:left;
+	height: 84px;
+	margin-top: 12px;
+	margin-left: 5px;
+}
+
+#section2 img {
+	float: left;
+}
+
